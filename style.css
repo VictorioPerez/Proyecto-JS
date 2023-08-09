@@ -1,0 +1,44 @@
+html{
+    margin: 0px 180px;
+}
+/*------------------------------HEADER-------------------------------  */
+#navbar {
+  background-color: black;
+}
+#navbar .imgLogo {
+  width: 80px;
+}
+#navbar ul li a {
+  color: white;
+}
+#carritoMobile {
+  display: none;
+}
+.carritoImg {
+width: 30px;
+position: relative;
+top: 2px;
+left: 220px;
+}
+/*---------------------------MAIN----------------------------------  */
+.containerMain{
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.imgStreet{
+    width: 300px;
+}
+/*-------------------RESPONSIVE---------------------------------------------- */
+@media (max-width: 576px) {
+  html {
+    margin: 0;
+  }
+  #carritoMobile {
+    display: block;
+  }
+  .carritoImg {
+    display: none;
+  }
+}
